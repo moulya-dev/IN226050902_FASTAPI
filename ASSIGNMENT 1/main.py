@@ -83,7 +83,7 @@ def search_products(keyword: str):
         "total_matches": len(results)
     }
 
-# ⭐ Bonus: Cheapest & Most Expensive
+#  Bonus: Cheapest & Most Expensive
 @app.get("/products/deals")
 def get_deals():
 
